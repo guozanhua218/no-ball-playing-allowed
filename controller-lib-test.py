@@ -1,3 +1,7 @@
+# A useful testing file for the controller library. Lets you push
+# around a ball and that's pretty much it, but it'll tell you if the 
+# joystick isn't working for any reason.
+
 import pygame
 from controller import *
 
