@@ -1,3 +1,10 @@
+# XboxControllers and XboxController
+# XboxController is an interface for engaging with pygame's joystick module
+# in a way that is specific to the controller itself. 
+# XboxControllers is a wrapper class that initializes the joystick module
+# as well as references to the initialized joystick objects themselves.
+# Written by Katherine Martinez
+
 from pygame import joystick
 from pygame import JOYAXISMOTION, JOYBUTTONDOWN, JOYBUTTONUP
 
